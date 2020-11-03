@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/com/controller/AddressController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/controller/CartController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/dao/AddressDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/dao/CartDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/dao/impl/AddressDaoImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/dao/impl/CartDaoImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/service/AddressService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/service/CartService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/service/impl/AddressServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/service/impl/CartServiceImpl.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

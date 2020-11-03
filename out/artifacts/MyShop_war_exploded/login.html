@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body{
+            background-color: white;
+        }
+        #top{
+            width: 100%;
+            height: 100px;
+        }
+        #top img{
+            margin-left: 80px;
+        }
+        #center{
+            width: 100%;
+            height: 620px;
+            background-image: url("img/bk.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        #center_login{
+            width: 410px;
+            margin-top: 30px;
+            height: 590px;
+            float: right;
+            margin-right: 70px;
+            background-color: white;
+        }
+        #bottom{
+            width: 100%;
+            height: 80px;
+            text-align: center;
+            margin-top: 100px;
+            background-color: aqua;
+        }
+    </style>
+    <script type="text/javascript">
+        function changeImage() {
+            document.getElementById('img').src='createCode?i='+Math.random();
+        }
+    </script>
+</head>
+<body>
+<div id="top">
+    <img src="img/mistore_logo.png">
+</div>
+<div id="center">
+    <div id="center_login">
+        <div style="height: 40px;width: 100%">
+            <table width="100%">
+                <tr>
+                    <td style="float:left"> <span style="font-size: 20px;margin-left: 10px;line-height: 40px">会员登录</span></td>
+                    <td style="float:right"><span style="line-height: 40px;margin-right:10px">还没有账号，<a href="#">去注册</a></span></td>
+                </tr>
+            </table>
+            <hr>
+        </div>
+    </div>
+</div>
+<div id="bottom"></div>
+</body>
+</html>
